@@ -18,6 +18,12 @@ ESP32는 IMU 센서로부터 가속도 값을 측정하고, 이 값을 Wi-Fi를 
 
 Raspberry Pi에서 동작하는 서버는 ESP32로부터 전송된 가속도 데이터를 수신하고, 이를 데이터베이스에 저장합니다. 여기서는 CSV 파일 형식을 사용하여 저장합니다.
 
+
+
+https://github.com/yn0212/projectlab-2022-2/assets/105347300/00476a3d-ea80-4193-a906-5724cf16241d
+
+
+
 Predictive Maintenance 알고리즘 개발:
 
 데이터베이스에 저장된 진동값을 기반으로 다양한 predictive maintenance 알고리즘을 개발합니다. 
