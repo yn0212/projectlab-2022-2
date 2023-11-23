@@ -10,9 +10,14 @@ MPU-9250-imu센서
 
 3상 유도전동기에 3축 가속도 센서(IMU 9250)를 장착하고, 이를 ESP32에 연결합니다. 해당 연결은 I2C 통신을 사용하여 이루어집니다.
 
+![image](https://github.com/yn0212/projectlab-2022-2/assets/105347300/73221789-c255-438d-8741-fe67dd4426f7)
+
+
 센서 데이터 수집 및 전송:
 
 ESP32는 IMU 센서로부터 가속도 값을 측정하고, 이 값을 Wi-Fi를 통해 원격의 Web server로 전송합니다. 이때, 측정된 데이터는 JSON 형식으로 전송됩니다.
+
+
 
 서버 측 데이터 수신 및 저장:
 
@@ -32,10 +37,12 @@ https://github.com/yn0212/projectlab-2022-2/assets/105347300/00476a3d-ea80-4193-
 Predictive Maintenance 알고리즘 개발:
 
 데이터베이스에 저장된 진동값을 기반으로 다양한 predictive maintenance 알고리즘을 개발합니다. 
+![image](https://github.com/yn0212/projectlab-2022-2/assets/105347300/748baf56-f16a-46df-beb7-2992b9dabd31)
 
 데이터 시각화:
 
 FFT(고속 푸리에 변환)를 사용하여 데이터를 시각화하고, 정상과 비정상 데이터를 구분하는 그래프를 생성합니다.
+![image](https://github.com/yn0212/projectlab-2022-2/assets/105347300/02df8156-a0bf-4f60-b8de-cb7c88a09e51)
 
 결과 확인:
 
