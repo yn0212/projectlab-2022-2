@@ -61,4 +61,7 @@ FFT(고속 푸리에 변환)를 사용하여 데이터를 시각화하고, 정�
 
 https://github.com/yn0212/projectlab-2022-2/assets/105347300/db709de1-ff90-48e7-9774-c89d14f1c0dc
 
+![image](https://github.com/yn0212/projectlab-2022-2/assets/105347300/a372bb6c-7548-40b4-83c8-39286c746051)
+
+
 
