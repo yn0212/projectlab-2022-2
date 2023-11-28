@@ -52,11 +52,11 @@ Raspberry Pi에서 동작하는 서버는 ESP32로부터 전송된 가속도 데
 - 
 ![image](https://github.com/yn0212/projectlab-2022-2/assets/105347300/5801c183-1125-4c47-97d2-5cc634428509)
 
-## HTTP통신
-
+# IMU (MPU 9250)센서를 ESP32보드에 장착하고 진동값 측정하고 이를 jSON파일 형태로 원격의 서버 라즈베리파이 에 전송하는 스케치 프로그램 
+-esp32_imu_mou9250_to_winpc_7_09.ino
 - Wi-Fi 서버 접속 주소를 자신의 라즈베리파이의 IP로 변경하여 두 장치 간의 통신을 설정
 - ESP32 arduino 스케치 (esp32_imu_mpu9250_to_winpc_7_09.ino)에서 wifi 서버 접속 주소를 자신의 라파 ip로 변경
-
+- 
 ![image](https://github.com/yn0212/projectlab-2022-2/assets/105347300/abd5acfb-162d-4dc2-8e40-4563f2b62ff4)
 
 
@@ -65,7 +65,9 @@ Raspberry Pi에서 동작하는 서버는 ESP32로부터 전송된 가속도 데
 
 https://github.com/yn0212/projectlab-2022-2/assets/105347300/84ed421d-b336-4828-93b7-2f57fe82bff4
 
-
+- $ python http_accel_data_store.py d ./data -p 1337 -t 0 –
+- 옵션 설명: -d ./data 는 해당 폴더에 data폴더를 생성해야 함
+  -t 옵션 0 은 계속해서 측정 
 
 
 ###  3상 유도전동기에 imu센서를 장착하고, 측정된 가속도 값을 원격의 PC로 wifi 무선 통신을 이용하여 측정값을 전송하는 esp32기반의 iot단말 및 전송 프로그램. 
