@@ -74,7 +74,7 @@ https://github.com/yn0212/projectlab-2022-2/assets/105347300/00476a3d-ea80-4193-
 
 ![image](https://github.com/yn0212/projectlab-2022-2/assets/105347300/589ebeb0-ab43-4345-a7e0-65c3fdced75d)
 
-
+클라이언트가 서버에게 어떤 동작이나 데이터를 원하는지를 명시적으로 전달
 
 ### Predictive Maintenance 알고리즘 개발
 
@@ -101,7 +101,9 @@ FFT(고속 푸리에 변환)를 사용하여 데이터를 시각화하고, 정�
 
 ### 모니터링
 esp32보드와 raspberry pi 보드간의 http 프로토콜에서 제공하는 get/post method를 사용하여 node-red확인
-![image](https://github.com/yn0212/projectlab-2022-2/assets/105347300/748baf56-f16a-46df-beb7-2992b9dabd31)
+![image](https://github.com/yn0212/projectlab-2022-2/assets/105347300/ccf07acc-29f9-45b7-a5fc-a497eff44c8a)
+![image](https://github.com/yn0212/projectlab-2022-2/assets/105347300/f0d59eca-95bf-4c78-bf7a-a9d92e1b3df4)
+
 
 
 ### 최종 결과:
