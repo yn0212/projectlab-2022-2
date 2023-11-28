@@ -1,5 +1,5 @@
 
-# ESP32기반 3상유도전동기 진동 감지 및 원격 Predictive Maintenance 시스템
+# ESP32기반 3상유도전동기 진동 감지 및 원격 전송 프로그램, 진동 데이터 Predictive Maintenance 알고리즘 개발
 
 
 ### 배경
